@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>EXPERIENCE</h1>
+    <app-experience-component *ngFor='let experience of experiences' [companyName]="experience['companyName']"
+        [companyLink]="experience['companyLink']" [position]="experience['position']" [time]="experience['time']"
+        [details]="experience['details']"></app-experience-component>
+</div>
+
+<div class="container">
+    <app-education-component></app-education-component>
+</div>
+
+<div class="container">
+    <h1>PROJECTS</h1>
+    <app-project-component *ngFor='let project of projects' [projectName]="project['projectName']"
+        [projectLink]="project['projectLink']" [position]="project['position']" [time]="project['time']"
+        [details]="project['details']"></app-project-component>
+</div>
+
+<div class="container">
+    <h1>ACTIVITIES</h1>
+    <app-activity-component *ngFor='let activity of activities' [activityName]="activity['activityName']"
+        [activityLink]="activity['activityLink']" [position]="activity['position']" [time]="activity['time']"
+        [details]="activity['details']"></app-activity-component>
+</div>

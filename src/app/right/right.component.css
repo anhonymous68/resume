@@ -1,0 +1,28 @@
+h1{
+    letter-spacing: 3px;
+    font-size:18px;
+    color: #667BD9;
+    border-bottom: 1px solid rgb(118, 136, 216);
+}
+h2{
+    font-size:14px;
+    font-weight:625;
+    margin-bottom:1px;
+}
+.bluetext {
+    color: #667BD9;
+}
+p {
+    line-height: 14px;
+    letter-spacing: 1px;
+    overflow-wrap: everywhere;
+    font-size:12px;
+    margin:4px;
+}
+
+#detail{
+    margin : 0px;
+}
+.container{
+    margin-top : 20px;
+}
